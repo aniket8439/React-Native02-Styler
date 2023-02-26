@@ -1,4 +1,4 @@
-import { View, Text, ScrollView, StyleSheet } from 'react-native'
+import { View, Text, ScrollView, StyleSheet, SafeAreaView } from 'react-native'
 import React from 'react'
 import FlatCards from './components/FlatCards'
 import ElevatedCard from './components/ElevatedCard'
@@ -9,6 +9,7 @@ import ContactList from './components/ContactList'
 const App = () => {
   return (
     <View>
+      <SafeAreaView>
       <ScrollView>
       <FlatCards />
       <ElevatedCard />
@@ -17,6 +18,7 @@ const App = () => {
       <ContactList />
       <Text style={styles.copyRight}>©Copyrights ~Aniket Sharma </Text>
       </ScrollView>
+      </SafeAreaView>
     </View>
   )
 }
@@ -27,6 +29,6 @@ const styles = StyleSheet.create({
   copyRight: {
     fontWeight:"bold",
     textAlign:"center",
-    color:"#FFF"
+    color:"#FFFFFF"
   }
 })

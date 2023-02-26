@@ -26,7 +26,7 @@ const ContactList = () => {
         {
             uid:4,
             name:'Arastu gupta',
-            status:'Sekeking Knowlwege in all fields',
+            status:'Seeeking Knowledge in all fields',
             imageUrl:'https://avatars.githubusercontent.com/u/101584387?v=4'
         }
     ];
